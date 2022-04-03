@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tartan Testing</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+</head>
+
+
+<body>
+<header>
+    <h5><a href="Cart.html">view appointments</a></h5>
+    <h6>my account</h6>
+    <h7>appointment count: <span id="appointmentCount"></span></h7>
+
+    <h3>Carnegie Mellon </h3>
+    <h4>Covid Testing & Vaccination Services </h4>
+    <h1>Tartan Testing</h1>
+
+</header>
+
+<div class="month">
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      March 2022
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li></li>
+  <li>Sun<br/>6</li>
+  <li>Mon<br/>7</li>
+  <li>Tue<br/>8</li>
+  <li>Wed<br/>9</li>
+  <li>Thu<br/>10</li>
+  <li>Fri<br/>11</li>
+  <li>Sat<br/>12</li>
+</ul>
+
+<ul class="days" >
+
+  <li id="first-row">8:00 - 8:05</li>
+  <li><button class="available" data-date="6" data-time="8:00" id="r1c1" onClick="bookButtonr1c1()">TCS Hall</button></li>
+
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+
+
+  <li>8:05 - 8:10</li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="available" id="r2c2" onClick="bookButtonr2c2()">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="available" id="r2c7" onClick="bookButtonr2c7()">TCS Hall</button></li>
+
+  <li>8:10 - 8:15</li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+
+
+  <li>8:15 - 8:20</li>
+  <li><button class="available" id="r4c1" onClick="bookButtonr4c1()">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+
+  <li>8:20 - 8:25</li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+  <li><button class="booked">TCS Hall</button></li>
+</ul>
+
+
+<h8><a href="Main Menu.html">Back</a></h8>
+
+</div>
+</body>
+<!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+</html>
+<! ––calendar referenced from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_calendar ––>

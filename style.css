@@ -1,0 +1,385 @@
+/*********** BODY ************/
+body {
+    text-align: center;
+    margin: 0;
+    color: #737373;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*********** HEADER ************/
+
+header {
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    background-color: white;
+    color: #990000;
+    font-family: 'Poppins', serif;
+}
+
+
+h1 {
+    border: 10px;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    padding: 0px;
+    color: #545353;
+    font-weight: normal;
+}
+
+h3 {
+    text-align: left;
+    border: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: -80px;
+    margin-top: -80px;
+}
+
+
+h4 {
+    margin: 0;
+    text-align: left;
+    font-size: 19px;
+    padding: 0px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: -79px;
+    margin-top: 0px;
+}
+
+
+h5 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    text-decoration: underline;
+    padding-right: 200px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: -30px;
+}
+
+h6 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    text-decoration: underline;
+    padding-right: 50px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: -25px;
+}
+
+h7 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    padding-left: 960px;
+    color: #545353;
+    font-weight: normal;
+}
+
+h8 {
+    position: absolute;
+    font-size: 26px;
+    left: 40px;
+    bottom: 40px;
+    font-weight: bold;
+}
+
+
+
+h11 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+}
+
+
+/*********** BUTTONS ************/
+#login-buttons {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 0px;
+}
+
+#main-menu-buttons {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 0px;
+    vertical-align: super;
+}
+
+.testing {
+  left: -50%; position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 150px 0;
+  text-align: center;
+  border: gray;
+  background-color: #E0E0E0;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom:  -300px;
+}
+
+.vaccine {;
+  left: 25%; position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 150px 0;
+  text-align: center;
+  border: gray;
+  background-color: #E0E0E0;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: -300px;
+}
+
+.results {
+  left: 100%; position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 150px 0;
+  text-align: center;
+  border: gray;
+  background-color: #E0E0E0;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: -300px;
+}
+
+
+.buttons-1 {
+    padding: 40px;
+    margin-bottom: 50px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.header a {
+    color: gold;
+    text-decoration: none;
+}
+
+.buttons-1 a {
+    color: teal;
+    text-decoration: none;
+}
+
+
+
+
+/*********** Tartan Testing Calendar ************/
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Poppins, sans-serif;}
+
+.month {
+  padding: 50px 25px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  margin-top: -140px;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: #000000;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  font-size: 24px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12%;
+  color: #000000;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: white;
+  margin: 0;
+  line-height: 3;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:24px;
+  color: #000000;
+}
+
+.days li .booked {
+  padding: 20px;
+  background: black;
+  color: white !important
+}
+
+.days li .available {
+  padding: 20px;
+  background: #9aad9a;
+  color: #000000 !important
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Confirm Button */
+.confirm {
+  color: #aaaaaa;
+  float: bottom;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.confirm:hover,
+.confirm:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** Cart ************/
+.app1 {
+  left: -25%; position: relative;
+  width: 1000px;
+  height: 10px;
+  padding: 80px;
+  text-align: center;
+  border: gray;
+  background-color: #C4C4C4;
+  color: #545353;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom:  0px;
+}
+
+.app2 {;
+  left: -25%; position: relative;
+  width: 1000px;
+  height: 10px;
+  padding: 80px;
+  text-align: center;
+  border: gray;
+  background-color: #878787;
+  color: #545353;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: -300px;
+}
+
+.app3 {
+  left: -25%; position: relative;
+  width: 1000px;
+  height: 20px;
+  padding: 80px;
+  text-align: center;
+  border: gray;
+  background-color: #C4C4C4;
+  color: #545353;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 350px;
+}
